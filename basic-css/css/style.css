@@ -1,0 +1,40 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    color: blue;
+    font-weight: 700;
+    text-decoration: underline;
+    background: gold;
+}
+
+h2 {
+    color: purple;
+    font-weight: 900;
+    font-size: 25px;
+    border: 2px solid orange;
+}
+
+section {
+    width: 50%;
+    height: 200px;
+    background: gray;
+    border: solid 2px black;
+}
+
+section p {
+    color: white;
+}
+
+footer {
+    background: black;
+    border: solid 2px lightgreen;
+    color: white;
+    font-size: 20px;
+    font-family: "Roboto", sans-serif;
+}
